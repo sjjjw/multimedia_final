@@ -1,0 +1,166 @@
+/* style sheet: Final Project */
+
+/* main page - index */
+body{
+  padding:10px;
+  background-color:#f0f0f5;
+  background-repeat: no-repeat;
+  font-family: 'Noto Sans', sans-serif;
+}
+#header{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#header h1{
+  text-align:center;
+  padding:10px;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+  -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+  -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+#ind{
+  padding:50px;
+  margin-top:30px;
+  border:1px solid gray;
+}
+#ind h2{
+  padding:10px;
+  margin-top:8px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align:center;
+}
+.bottom{
+  margin-top:10px;
+  margin-bottom:5px;
+  width:98%;
+  text-align:right;
+  position:static;
+}
+#menu ul{
+  background-color:#000033;
+  text-align:center;
+  top:0px;
+  padding:18px;
+  margin-left:0px;
+  margin-right:0px;
+}
+#menu ul li{
+  display:inline;
+}
+#menu ul li a{
+  text-decoration:none;
+  font:20px;
+  padding:14px 38px;
+  color:white;
+}
+#menu a:hover{
+  background-color: #00001a;
+  font-weight:bold;
+}
+.img{
+  width:180px;
+  height:auto;
+  float:left;
+  margin-right:70px;
+  margin-left:100px;
+}
+#main{
+  padding:50px;
+}
+.h1{
+  padding:10px;
+  margin-top:8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.p{
+  padding:10px;
+  font-size:16px;
+  line-height:120%;
+}
+.icon{
+  width:60px;
+  height:auto;
+  margin-right:15px;
+  margin-left:5px
+}
+.strong{
+  font-weight:bold;
+  font-size:17px;
+}
+/* content */
+#info{
+  padding:20px;
+}
+#info p{
+  padding:8px;
+  margin-left:10px;
+  margin-right:10px;
+  font-size:16px;
+  line-height:110%;
+}
+table{
+  position: relative;
+  width:90%;
+  height:230px;
+  margin-left:auto;
+  margin-right:auto;
+}
+th{
+  font-weight: bold;
+  font-size: 18px;
+  text-align:center;
+}
+.exphoto{
+  background:rgba(0, 0, 0, 0.2);
+  height:100%;
+  margin:20px;
+  padding:20px;
+}
+.view{
+  margin-left:10px;
+}
+
+/* Gallery */
+
+#hob{
+  overflow:auto;
+  width:93%;
+  margin-bottom:6px;
+  margin-left:6px;
+  margin-right:6px;
+  padding:20px;
+}
+#hob h3{
+  font-weight: bold;
+  font-size: 18px;
+}
+#hob p{
+  padding:8px;
+  margin-left:10px;
+  margin-right:10px;
+  font-size:16px;
+  line-height:110%;  
+}
+
+.gallery2 {
+    width: auto;
+    height: 100%;
+}
+.gallery2 img {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    height: 180px;
+}
+.gallery2 img:hover {
+    border: 1px solid #777;
+}
+
+.rotation{
+  width: 180px;
+  -webkit-transform: rotate(90deg);
+}
